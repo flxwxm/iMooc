@@ -1,0 +1,143 @@
+/*directory*/
+#directory{
+	width:1200px;
+	margin:0 auto;	
+}
+
+#directory h3{
+	float:left;
+	height:32px;
+	line-height: 32px;
+	margin: 0 20px;
+	
+}
+#directory p{
+	letter-spacing: -4px;
+	font-size: 0px;
+	float:left;
+	width:1120px;
+	line-height: 40px;
+}
+#directory a{
+	display: inline-block;
+	letter-spacing: 0;
+	font-size: 14px;
+	line-height: 32px;
+	color:#000;
+	padding: 0 12px;
+}
+#directory a:hover{
+	color:red;
+}
+#directory .top{
+	padding: 30px 0 14px 0;
+	border-bottom:1px solid #edf1f2;
+}
+#directory .center{
+	padding: 20px 0 14px 0;
+	border-bottom:1px solid #edf1f2;
+}
+#directory .bottom{
+	padding: 30px 0 20px 0;
+}
+#directory .active{
+	background-color: #f01400;
+	color:#fff;
+}
+#directory .active:hover{
+	color:#fff;
+}
+/*list*/
+#list-wrap{
+	background-color: #f3f5f7;
+}
+#list-wrap img{
+	width:224px;
+	height:172px;
+}
+#list-wrap .list{
+	width:1220px;
+	margin:0 auto;
+}
+#list-wrap .head{
+	height:18px;
+	line-height: 18px;
+	padding:24px 20px 16px 30px;
+}
+#list-wrap .head a{
+	color:#787d82;
+	font-size: 14px;
+	margin-right: 30px;
+}
+#list-wrap .head .active{
+	color:red;
+} 
+#list-wrap .mostbig{
+	width:224px;
+	height:364px;
+	background-color: blue;
+	float:left;
+	margin:10px;
+}
+#list-wrap .mostbig .big-img{
+	display:block;
+	width: 224px;
+	height:172px;
+}
+#list-wrap .mostbig ul{
+	height:192px;
+	background-color: #fff;
+	padding:0 14px;
+}
+#list-wrap .mostbig li{
+	height:48px;
+	border-bottom:1px solid #d9dde1;
+	padding:14px 0 0 8px;
+}
+#list-wrap .mostbig .no-border{
+	border-bottom:none;
+}
+#list-wrap .mostbig li a{
+	display: block;
+	line-height: 18px;
+	color:#000;
+}
+#list-wrap .mostbig li a:hover{
+	color:red;
+}
+#list-wrap .mostbig li p{
+	color:red;
+	line-height: 20px;
+}
+#list-wrap .head .next,#list-wrap .head .prev,#list-wrap .head span{
+	float:right;
+}
+#list-wrap .head .next,#list-wrap .head .prev{
+	display: inline-block;
+	width:18px;
+	margin-right:10px;
+	background-color: #8F8F8F;
+	border-radius:9px;
+	text-align: center;
+	color:#fff; 
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+}
+#list-wrap .head .next:hover,#list-wrap .head .prev:hover{
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+#list-wrap .head span{
+	margin-right:10px;
+}
+#list-wrap .head em{
+	font-style: normal;
+}
+#list-wrap .head .now{
+	color:red;
+}
+#list-wrap .min{
+	float: left;
+	margin:10px;
+
+}

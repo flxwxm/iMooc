@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>IT技术问答平台</title>
+<meta name="description" content="慕课网（IMOOC）是IT技能学习平台。慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课。并且富有交互性及趣味性，你还可以和朋友一起编程">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href=" img/favicon.ico" />
+<link href="css/style.css" rel="stylesheet">
+<link href="css/css_common.css" rel="stylesheet">
+<link href="css/css_question.css" rel="stylesheet">
+<script src="js/vQuery-tool.js"></script>
+<script src="js/vQuery.js"></script>
+<script src="js/common.js"></script>
+<script src="js/road.js"></script>
+
+
+</head>
+<body>
+<div id="index">
+	<div id="header">
+		<h1><a href="index.html"></a></h1>
+		<ul class="nav">
+			<li><a href="course.html">课程</a></li>
+			<li><a href="road.html" class="new">职业路径</a></li>
+			<li><a href="actual.html">实战</a></li>
+			<li><a href="#" class="active">猿问</a></li>
+			<li><a href="write.html">手记</a></li>
+		</ul>
+		<div class="right">
+			<ul class="reg-list">
+				<li><a href="#"><span class="icon-mobile"></span></a></li>
+				<li><a href="#" class="red-bg">登陆</a></li>
+				<li><a href="#">注册</a></li>
+			</ul>
+			<div class="search_wrap">
+				<div class="search">
+					<input type="text">
+					<a href="#">前端入门</a>
+					<span class="icon-search"></span>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div id="pop-up">
+		<div class="pop-up-bg"></div>
+		<div class="pop-cotent">
+			<div class="header">
+				<span>登录</span>
+				<span>注册</span>
+				<strong>×</strong>
+			</div>
+			<div class="pop-same login">
+				<form action="#">
+					<div  class="same login-user">
+						<span>请输入登录邮箱/手机号</span>
+						<input type="text" name="user">
+						<p>请输入正确的邮箱或手机号</p>
+					</div>
+
+					<div  class="same login-pass">
+						<span>6-16位密码，区分大小写，不能用空格</span>
+						<input type="password" name="pass">
+						<p>请输入6-16位密码，区分大小写，不能用空格!</p>
+					</div>
+					<p class="auto">
+						<input type="checkbox" name="auto">下次自动登录
+						<a href="#" class="forget">忘记密码</a>
+					</p>
+					<button>登录</button>
+					<p class="other">其他方式登录 <em><a href="javascript:;"><span class="icon-tux"></span></a><a href="javascript:;"><span class="icon-bubbles"></span></a><a href="javascript:;"><span class="icon-sina-weibo"></span></a></em></p>
+				</form>
+			</div>
+			<div class="pop-same reg">
+				<form action="#">
+					<div  class="same reg-user">
+						<span>请输入注册邮箱/手机号</span>
+						<input type="text" name="user">
+						<p>请输入正确的邮箱或手机号</p>
+					</div>
+					<div  class="same reg-verify">
+						<span>请输入验证码</span>
+						<input type="text" name="verify">
+						<p>验证码错误</p>
+					</div>
+					<a href="javascript:;"><img src="img/verify.jpg" alt=""></a>
+					<button>注册</button>
+					<p class="other">其他方式登录 <em><a href="javascript:;"><span class="icon-tux"></span></a><a href="javascript:;"><span class="icon-bubbles"></span></a><a href="javascript:;"><span class="icon-sina-weibo"></span></a></em></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="content" class="clearfix">
+		<div class="main">
+			<div class="title">
+				<h2>程序员自己的问答安社区</h2>
+				<a href="javascript:;" class="button">我要提问</a>
+			</div>
+			<div class="nav">
+				<a href="#" class="act">推荐</a>
+				<a href="#">最新</a>
+				<a href="#">等待回答</a>
+				<span>只显示关注内容</span><input type="checkbox" name="see">
+			</div>
+			<p class="ad">【圣诞礼物来了】实战课陪你狂欢，约不约</p>
+			<ul class="list">
+				<li>
+					<a href="#" class="image"><img src="img/question/php.jpg" alt=""></a>
+					<div class="right">
+						<p class="from">来自<a href="#">Andorid</a></p>
+						<a href="#" class="question"><h3>w3school学h5 css3 js这些。js还是比较有用的。</h3></a>
+						<div class="j-have-ans">
+						<p class="who"><span>已采纳</span> <a href="#">胡正林肯</a> 回答：</p>
+						<p class="answer">我小学5年级接触C语言，当时看不懂。初中真正开始自学。初一时和一个同学去书店看书自学，可以在手机装个C4droid练习。后来初二开始学Android，摸索着学，后来慢慢补上Java的基础，写个APP什么的。学了C语言，再学别的就简单很多了。有时候做个网页什么的，就在w3school学h5 css3 js这些。js还是比较有用的。我最近在做一个类似Minecraft的游戏，用C++写，是Android平台的，打算以后编译windows版本。</p>
+						<p class="attitude"><span class="approve">赞同 <span class="num">1</span></span><span class="oppose">反对</span><span class="share">分享</span><span class="qq"><a href="#" title="分享到微信">微信</a>
+						<a href="#" title="分享到新浪微博">微博</a>
+						<a href="#" title="分享到QQ空间">QQ</a></span></p>
+						</div>
+						<div class="j-no-ans">
+							<a href="#" class="write">撰写答案</a>
+							<a href="#" class="gain">回答问题最高可获<span class="credits">3积分</span>哦！</a>
+							<a href="#" class="ans"><span>2</span>个回答</a>
+							<a href="#" class="focus">关注</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="image"><img src="img/question/ad.jpg" alt=""></a>
+					<div class="right">
+						<p class="from">来自<a href="#">Andorid</a></p>
+						<a href="#" class="question"><h3>w3school学h5 css3 js这些。js还是比较有用的。</h3></a>
+						<div class="j-have-ans">
+						<p class="who"><span>已采纳</span> <a href="#">胡正林肯</a> 回答：</p>
+						<p class="answer">我小学5年级接触C语言，当时看不懂。初中真正开始自学。初一时和一个同学去书店看书自学，可以在手机装个C4droid练习。后来初二开始学Android，摸索着学，后来慢慢补上Java的基础，写个APP什么的。学了C语言，再学别的就简单很多了。有时候做个网页什么的，就在w3school学h5 css3 js这些。js还是比较有用的。我最近在做一个类似Minecraft的游戏，用C++写，是Android平台的，打算以后编译windows版本。</p>
+						<p class="attitude"><span class="approve">赞同 <span class="num">1</span></span><span class="oppose">反对</span><span class="share">分享</span><span class="qq"><a href="#" title="分享到微信">微信</a>
+						<a href="#" title="分享到新浪微博">微博</a>
+						<a href="#" title="分享到QQ空间">QQ</a></span></p>
+						</div>
+						<div class="j-no-ans">
+							<a href="#" class="write">撰写答案</a>
+							<a href="#" class="gain">回答问题最高可获<span class="credits">3积分</span>哦！</a>
+							<a href="#" class="ans"><span>3</span>个回答</a>
+							<a href="#" class="focus">关注</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="image"><img src="img/question/html.jpg" alt=""></a>
+					<div class="right">
+						<p class="from">来自<a href="#">Andorid</a></p>
+						<a href="#" class="question"><h3>w3school学h5 css3 js这些。js还是比较有用的。</h3></a>
+						<div class="j-have-ans">
+						<p class="who"><span>已采纳</span> <a href="#">胡正林肯</a> 回答：</p>
+						<p class="answer">我小学5年级接触C语言，当时看不懂。初中真正开始自学。初一时和一个同学去书店看书自学，可以在手机装个C4droid练习。后来初二开始学Android，摸索着学，后来慢慢补上Java的基础，写个APP什么的。学了C语言，再学别的就简单很多了。有时候做个网页什么的，就在w3school学h5 css3 js这些。js还是比较有用的。我最近在做一个类似Minecraft的游戏，用C++写，是Android平台的，打算以后编译windows版本。</p>
+						<p class="attitude"><span class="approve">赞同 <span class="num">1</span></span><span class="oppose">反对</span><span class="share">分享</span><span class="qq"><a href="#" title="分享到微信">微信</a>
+						<a href="#" title="分享到新浪微博">微博</a>
+						<a href="#" title="分享到QQ空间">QQ</a></span></p>
+						</div>
+						<div class="j-no-ans">
+							<a href="#" class="write">撰写答案</a>
+							<a href="#" class="gain">回答问题最高可获<span class="credits">3积分</span>哦！</a>
+							<a href="#" class="ans"><span>2</span>个回答</a>
+							<a href="#" class="focus">关注</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="image"><img src="img/question/c.jpg" alt=""></a>
+					<div class="right">
+						<p class="from">来自<a href="#">Andorid</a></p>
+						<a href="#" class="question"><h3>w3school学h5 css3 js这些。js还是比较有用的。</h3></a>
+						<div class="j-have-ans">
+						<p class="who"><span>已采纳</span> <a href="#">胡正林肯</a> 回答：</p>
+						<p class="answer">我小学5年级接触C语言，当时看不懂。初中真正开始自学。初一时和一个同学去书店看书自学，可以在手机装个C4droid练习。后来初二开始学Android，摸索着学，后来慢慢补上Java的基础，写个APP什么的。学了C语言，再学别的就简单很多了。有时候做个网页什么的，就在w3school学h5 css3 js这些。js还是比较有用的。我最近在做一个类似Minecraft的游戏，用C++写，是Android平台的，打算以后编译windows版本。</p>
+						<p class="attitude"><span class="approve">赞同 <span class="num">1</span></span><span class="oppose">反对</span><span class="share">分享</span><span class="qq"><a href="#" title="分享到微信">微信</a>
+						<a href="#" title="分享到新浪微博">微博</a>
+						<a href="#" title="分享到QQ空间">QQ</a></span></p>
+						</div>
+						<div class="j-no-ans">
+							<a href="#" class="write">撰写答案</a>
+							<a href="#" class="gain">回答问题最高可获<span class="credits">3积分</span>哦！</a>
+							<a href="#" class="ans"><span>3</span>个回答</a>
+							<a href="#" class="focus">关注</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="image"><img src="img/question/php.jpg" alt=""></a>
+					<div class="right">
+						<p class="from">来自<a href="#">Andorid</a></p>
+						<a href="#" class="question"><h3>w3school学h5 css3 js这些。js还是比较有用的。</h3></a>
+						<div class="j-have-ans">
+						<p class="who"><span>已采纳</span> <a href="#">胡正林肯</a> 回答：</p>
+						<p class="answer">我小学5年级接触C语言，当时看不懂。初中真正开始自学。初一时和一个同学去书店看书自学，可以在手机装个C4droid练习。后来初二开始学Android，摸索着学，后来慢慢补上Java的基础，写个APP什么的。学了C语言，再学别的就简单很多了。有时候做个网页什么的，就在w3school学h5 css3 js这些。js还是比较有用的。我最近在做一个类似Minecraft的游戏，用C++写，是Android平台的，打算以后编译windows版本。</p>
+						<p class="attitude"><span class="approve">赞同 <span class="num">1</span></span><span class="oppose">反对</span><span class="share">分享</span><span class="qq"><a href="#" title="分享到微信">微信</a>
+						<a href="#" title="分享到新浪微博">微博</a>
+						<a href="#" title="分享到QQ空间">QQ</a></span></p>
+						</div>
+						<div class="j-no-ans">
+							<a href="#" class="write">撰写答案</a>
+							<a href="#" class="gain">回答问题最高可获<span class="credits">3积分</span>哦！</a>
+							<a href="#" class="ans"><span>2</span>个回答</a>
+							<a href="#" class="focus">关注</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="image"><img src="img/question/ad.jpg" alt=""></a>
+					<div class="right">
+						<p class="from">来自<a href="#">Andorid</a></p>
+						<a href="#" class="question"><h3>w3school学h5 css3 js这些。js还是比较有用的。</h3></a>
+						<div class="j-have-ans">
+						<p class="who"><span>已采纳</span> <a href="#">胡正林肯</a> 回答：</p>
+						<p class="answer">我小学5年级接触C语言，当时看不懂。初中真正开始自学。初一时和一个同学去书店看书自学，可以在手机装个C4droid练习。后来初二开始学Android，摸索着学，后来慢慢补上Java的基础，写个APP什么的。学了C语言，再学别的就简单很多了。有时候做个网页什么的，就在w3school学h5 css3 js这些。js还是比较有用的。我最近在做一个类似Minecraft的游戏，用C++写，是Android平台的，打算以后编译windows版本。</p>
+						<p class="attitude"><span class="approve">赞同 <span class="num">1</span></span><span class="oppose">反对</span><span class="share">分享</span><span class="qq"><a href="#" title="分享到微信">微信</a>
+						<a href="#" title="分享到新浪微博">微博</a>
+						<a href="#" title="分享到QQ空间">QQ</a></span></p>
+						</div>
+						<div class="j-no-ans">
+							<a href="#" class="write">撰写答案</a>
+							<a href="#" class="gain">回答问题最高可获<span class="credits">3积分</span>哦！</a>
+							<a href="#" class="ans"><span>3</span>个回答</a>
+							<a href="#" class="focus">关注</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="image"><img src="img/question/html.jpg" alt=""></a>
+					<div class="right">
+						<p class="from">来自<a href="#">Andorid</a></p>
+						<a href="#" class="question"><h3>w3school学h5 css3 js这些。js还是比较有用的。</h3></a>
+						<div class="j-have-ans">
+						<p class="who"><span>已采纳</span> <a href="#">胡正林肯</a> 回答：</p>
+						<p class="answer">我小学5年级接触C语言，当时看不懂。初中真正开始自学。初一时和一个同学去书店看书自学，可以在手机装个C4droid练习。后来初二开始学Android，摸索着学，后来慢慢补上Java的基础，写个APP什么的。学了C语言，再学别的就简单很多了。有时候做个网页什么的，就在w3school学h5 css3 js这些。js还是比较有用的。我最近在做一个类似Minecraft的游戏，用C++写，是Android平台的，打算以后编译windows版本。</p>
+						<p class="attitude"><span class="approve">赞同 <span class="num">1</span></span><span class="oppose">反对</span><span class="share">分享</span><span class="qq"><a href="#" title="分享到微信">微信</a>
+						<a href="#" title="分享到新浪微博">微博</a>
+						<a href="#" title="分享到QQ空间">QQ</a></span></p>
+						</div>
+						<div class="j-no-ans">
+							<a href="#" class="write">撰写答案</a>
+							<a href="#" class="gain">回答问题最高可获<span class="credits">3积分</span>哦！</a>
+							<a href="#" class="ans"><span>2</span>个回答</a>
+							<a href="#" class="focus">关注</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="image"><img src="img/question/c.jpg" alt=""></a>
+					<div class="right">
+						<p class="from">来自<a href="#">Andorid</a></p>
+						<a href="#" class="question"><h3>w3school学h5 css3 js这些。js还是比较有用的。</h3></a>
+						<div class="j-have-ans">
+						<p class="who"><span>已采纳</span> <a href="#">胡正林肯</a> 回答：</p>
+						<p class="answer">我小学5年级接触C语言，当时看不懂。初中真正开始自学。初一时和一个同学去书店看书自学，可以在手机装个C4droid练习。后来初二开始学Android，摸索着学，后来慢慢补上Java的基础，写个APP什么的。学了C语言，再学别的就简单很多了。有时候做个网页什么的，就在w3school学h5 css3 js这些。js还是比较有用的。我最近在做一个类似Minecraft的游戏，用C++写，是Android平台的，打算以后编译windows版本。</p>
+						<p class="attitude"><span class="approve">赞同 <span class="num">1</span></span><span class="oppose">反对</span><span class="share">分享</span><span class="qq"><a href="#" title="分享到微信">微信</a>
+						<a href="#" title="分享到新浪微博">微博</a>
+						<a href="#" title="分享到QQ空间">QQ</a></span></p>
+						</div>
+						<div class="j-no-ans">
+							<a href="#" class="write">撰写答案</a>
+							<a href="#" class="gain">回答问题最高可获<span class="credits">3积分</span>哦！</a>
+							<a href="#" class="ans"><span>3</span>个回答</a>
+							<a href="#" class="focus">关注</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="sidebar">
+			<div class="j-user">
+				<div class="user">
+					<div class="use-top">
+						<a href="#" class="photo"><img src="img/question/photo.jpg" alt=""></a>
+						<div class="use-right">
+						<a href="#" class="name">依烜</a><br>
+						<a href="#" class="credit">积分：<span>0</span> </a>
+						<a href="#" class="market">积分商城</a>
+						</div>
+					</div>
+					<div class="use-bottom">
+						<a href="#">提问</a>
+						<a href="#">回答</a>
+						<a href="#">关注</a>
+					</div>
+				</div>
+				<div class="myFocus">
+					<p class="head">我关注的分类<span class="add">+</span></p>
+					<div class="j-focus">
+						<p class="hint">您还没有关注任何分类</p>
+						<a href="" class="button">马上关注 </a>
+					</div>
+					<div class="j-class">
+						<a href="#">javScript</a><a href="#">css3</a>
+					</div>
+				</div>
+			</div>
+			<div class="side-same reco">
+				<div class="side-head">推荐分类<span class="all">全部分类</span></div>
+				<ul class="list">
+					<li>
+						<div class="top">
+							<a href="#" class="photo"><img src="img/question/ad.jpg" alt=""></a>
+							<a href="" class="button">关注</a>
+							<a href="#" class="title">Android</a><br>
+							<span class="num"><em>22570</em>人关注</span>
+							
+						</div>
+						<p>JAVA 是一种可以撰写跨平台应用软件的面向对象的程序设计语言，是由...</p>
+					</li>
+					<li>
+						<div class="top">
+							<a href="#" class="photo"><img src="img/question/c.jpg" alt=""></a>
+							<a href="" class="button">关注</a>
+							<a href="#" class="title">Android</a><br>
+							<span><em>22570</em>人关注</span>
+						</div>
+						<p>JAVA 是一种可以撰写跨平台应用软件的面向对象的程序设计语言，是由...</p>
+					</li>
+					<li>
+						<div class="top">
+							<a href="#" class="photo"><img src="img/question/php.jpg" alt=""></a>
+							<a href="" class="button">关注</a>
+							<a href="#" class="title">Android</a><br>
+							<span><em>22570</em>人关注</span>
+							
+						</div>
+						<p>JAVA 是一种可以撰写跨平台应用软件的面向对象的程序设计语言，是由...</p>
+					</li>
+				</ul>
+			</div>
+			<a href="#" class="adver"><img src="img/question/banner.jpg" alt=""></a>
+			<div class="side-same hot-ques">
+				<p class="side-head">热门问题</p>
+				<ul>
+					<li>
+						<a href="#" class="ques">学了C语言，再学别的就简单很多了</a>
+						<p class="about"><a href="#" class="ans"><span class="num">153</span>人回答</a>
+						<a href="#" class="focus"><span class="num"></span>关注</a>
+						<a href="#" class="from">来自<span class="course-class">JAVA</span></a></p>
+					</li>
+					<li>
+						<a href="#" class="ques">学了C语言，再学别的就简单很多了</a>
+						<p class="about"><a href="#" class="ans"><span class="num">153</span>人回答</a>
+						<a href="#" class="focus"><span class="num"></span>关注</a>
+						<a href="#" class="from">来自<span class="course-class">JAVA</span></a></p>
+					</li>
+					<li>
+						<a href="#" class="ques">最好可以再独自做一个比较完整的java web项目，将其中的用到的技术再熟悉一遍。</a>
+						<p class="about"><a href="#" class="ans"><span class="num">153</span>人回答</a>
+						<a href="#" class="focus"><span class="num"></span>关注</a>
+						<a href="#" class="from">来自<span class="course-class">JAVA</span></a></p>
+					</li>
+					<li>
+						<a href="#" class="ques">后来慢慢补上Java的基础，写个APP什么的。学了C语言</a>
+						<p class="about"><a href="#" class="ans"><span class="num">153</span>人回答</a>
+						<a href="#" class="focus"><span class="num"></span>关注</a>
+						<a href="#" class="from">来自<span class="course-class">JAVA</span></a></p>
+					</li>
+					<li>
+						<a href="#" class="ques">初一时和一个同学去书店看书自学，可以在手机装个C4droid练习。</a>
+						<p class="about"><a href="#" class="ans"><span class="num">153</span>人回答</a>
+						<a href="#" class="focus"><span class="num"></span>关注</a>
+						<a href="#" class="from">来自<span class="course-class">JAVA</span></a></p>
+					</li>
+					<li>
+						<a href="#" class="ques">我最近在做一个类似Minecraft的游戏，用C++写</a>
+						<p class="about"><a href="#" class="ans"><span class="num">153</span>人回答</a>
+						<a href="#" class="focus"><span class="num"></span>关注</a>
+						<a href="#" class="from">来自<span class="course-class">JAVA</span></a></p>
+					</li>
+				</ul>
+			</div>
+			<div class="side-same top-ans">
+				<p class="side-head">回答雷锋榜<span class="week">一周</span><span class="today act">今日</span></p>
+				<ul>
+					<li>
+						<strong class="first">1</strong><a href="#" class="photo"><img src="img/question/user0.jpg" alt=""></a><span class="right"><a href="#" class="name">慧珠姑苏城</a><br><span class="ans"><span class="num">19</span>回答</span></span>
+					</li>
+					<li>
+						<strong class="second">2</strong><a href="#" class="photo"><img src="img/question/user1.jpg" alt=""></a><span class="right"><a href="#" class="name">慧珠姑苏城</a><span class="ident">学生</span><span class="ans"><span class="num">19</span>回答</span></span>
+					</li>
+					<li>
+						<strong class="third">3</strong><a href="#" class="photo"><img src="img/question/user2.jpg" alt=""></a><span class="right"><a href="#" class="name">慧珠姑苏城</a><span class="ident">学生</span><span class="ans"><span class="num">19</span>回答</span></span>
+					</li>
+					<li>
+						<strong>4</strong><a href="#" class="photo"><img src="img/question/user3.jpg" alt=""></a><span class="right"><a href="#" class="name">慧珠姑苏城</a><span class="ident">学生</span><span class="ans"><span class="num">19</span>回答</span></span>
+					</li>
+					<li>
+						<strong>5</strong><a href="#" class="photo"><img src="img/question/user4.jpg" alt=""></a><span class="right"><a href="#" class="name">慧珠姑苏城</a><span class="ident">学生</span><span class="ans"><span class="num">19</span>回答</span></span>
+					</li><li>
+						<strong>6</strong><a href="#" class="photo"><img src="img/question/user3.jpg" alt=""></a><span class="right"><a href="#" class="name">慧珠姑苏城</a><span class="ident">学生</span><span class="ans"><span class="num">19</span>回答</span></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer-box">
+		<div id="footer">
+		  <ul>
+		  	<li><a href="#">企业合作</a></li>
+		  	<li><a href="#">人才招聘</a></li>
+		  	<li><a href="#">讲师招募</a></li>
+		  	<li><a href="#">常见问题</a></li>                        
+		  	<li><a href="#">意见反馈</a></li>
+		  	<li><a href="#">慕课大学</a></li>
+		  	<li><a href="#">联系我们</a></li>
+		  	<li><a href="#">友情链接</a></li>
+		  </ul>
+		  <p>© 2016 imooc.com  京ICP备 13046642号-2</p>
+		</div>
+	</div>
+	<div id="side">
+	  <a href="#" title="意见反馈" class="no-border"><span class="icon-info"></span></a>
+	  <a href="javascript:;" title="app下载"><span class="icon-mobile"></span></a>
+	  <a href="javascript:;" title="官方微信"><span class="icon-bubbles"></span></a>
+	  <a href="javascript:;" title="返回顶部" class="up"><span>︿</span></a>
+	</div>				  
+</div>
+</body>
+</html>
